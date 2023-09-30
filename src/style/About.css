@@ -1,0 +1,21 @@
+
+
+#about {
+    height: 65vh;
+}
+
+@media screen and (max-width: 768px) {
+    #about {
+        height: 52vh;
+        /* display: none; */
+        /* background-color: #f00; Example: Change background color for mobil"C:\Users\pawan\Downloads\Gilroy-FREE\Gilroy-FREE\Gilroy-Light.otf"e view */
+    }
+}
+
+
+@font-face {
+    font-family: 'Gilroy Light'; /* Give your font a name */
+    src: url('../static/Gilroy-Light.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+  }

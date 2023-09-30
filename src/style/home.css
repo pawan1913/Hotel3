@@ -1,0 +1,42 @@
+.slide{
+    /* width: 90%; */
+    height: 95%;
+    align-items: center;
+    /* margin: auto; */
+    position: relative;
+    width: 100%;
+    box-sizing: border-box
+}
+
+.slide img{
+    height: 68vh;
+    object-fit: cover;
+    object-position: center;
+    /* padding: 10px; */
+    /* border-radius: 10px; */
+    width: 100%;
+
+
+}
+
+.about h1{
+    font-family: 'Croissant One', cursive;
+    /* font-family: 'Bebas Neue', sans-serif; */
+    /* font-family: 'Sedgwick Ave Display', cursive; */
+    white-space: nowrap;
+    /* display: inline-flex; */
+    /* color; */
+}
+
+.slidetext{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: 900;
+}
+
+.about .type {
+    display: inline-flex;
+}
